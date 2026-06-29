@@ -1,0 +1,59 @@
+
+:root {
+  --accent:    #FF4D6D;
+  --accent2:   #00C6AE;
+  --accent3:   #FFBE0B;
+  --radius:    12px;
+  --transition: 0.35s ease;
+}
+[data-theme="dark"] {
+  --bg:        #0B0C10;
+  --bg2:       #13151C;
+  --bg3:       #1C1F2B;
+  --text:      #F0F0F5;
+  --muted:     #7A7F99;
+  --border:    rgba(255,255,255,0.08);
+}
+[data-theme="light"] {
+  --bg:        #F5F5F7;
+  --bg2:       #FFFFFF;
+  --bg3:       #EAEAF0;
+  --text:      #0D0D14;
+  --muted:     #5A5E78;
+  --border:    rgba(0,0,0,0.08);
+}
+
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition:  var(--transition), color var(--transition);
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+
+/* ── TYPOGRAPHY ─────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+h1, h2, h3 { font-family: 'Syne', sans-serif; }
+
+
+.btn {
+  display: inline-block; padding: 0.55rem 1.3rem;
+  border-radius: 50px; font-weight: 600; font-size: 0.85rem;
+  transition: all 0.2s; cursor: pointer; border: none;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,77,109,0.4); }
+.btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--border); }
+.btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+.section-label {
+  display: inline-block;
+  font-size: 0.75rem; font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
