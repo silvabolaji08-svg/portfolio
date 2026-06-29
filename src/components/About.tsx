@@ -1,3 +1,5 @@
+import profileImg from '../assets/profile.jpg'
+
 export default function About() {
   const chips = ['🚀 Full-Stack', '🎨 UI/UX Minded', '⚡ Performance First', '📱 Mobile Responsive']
 
@@ -13,27 +15,34 @@ export default function About() {
       }}>
 
         {/* Avatar */}
-        <div style={{ position: 'relative', maxWidth: 380 }}>
-          <div style={{
-            width: '100%', aspectRatio: '1',
-            borderRadius: 24,
-            background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent2) 50%, var(--accent3) 100%)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontFamily: 'Syne, sans-serif', fontSize: '4rem',
-            fontWeight: 800, color: '#fff',
-          }}>
-            RSW
-          </div>
-          <div style={{
-            position: 'absolute', bottom: -16, right: -16,
-            background: 'var(--accent3)', color: '#0D0D14',
-            borderRadius: 12, padding: '0.8rem 1.2rem',
-            fontFamily: 'Syne, sans-serif', fontWeight: 800,
-            fontSize: '0.9rem', boxShadow: '0 8px 24px rgba(0,0,0,0.2)',
-          }}>
-            📍 Nigeria
-          </div>
-        </div>
+<div style={{ position: 'relative', maxWidth: 380 }}>
+  <div style={{
+    width: '100%', aspectRatio: '1',
+    borderRadius: 24,
+    overflow: 'hidden',
+    border: '4px solid var(--accent)',
+  }}>
+    <img
+      src={profileImg}
+      alt="Rotimi-Silva Williams Mobolaji"
+      style={{
+        width: '100%', height: '100%',
+        objectFit: 'cover',
+      }}
+    />
+  </div>
+
+  {/* Keep the location badge */}
+  <div style={{
+    position: 'absolute', bottom: -16, right: -16,
+    background: 'var(--accent3)', color: '#0D0D14',
+    borderRadius: 12, padding: '0.8rem 1.2rem',
+    fontFamily: 'Syne, sans-serif', fontWeight: 800,
+    fontSize: '0.9rem', boxShadow: '0 8px 24px rgba(0,0,0,0.2)',
+  }}>
+    📍 Nigeria
+  </div>
+</div>
 
         {/* Text */}
         <div>
