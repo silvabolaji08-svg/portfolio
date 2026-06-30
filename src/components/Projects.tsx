@@ -1,12 +1,12 @@
 const projects = [
   {
     emoji: '🛒',
-    gradient: 'linear-gradient(135deg, #FF4D6D, #FF8C69)',
+    gradient: 'linear-gradient(135deg, #FF6B35, #FF8C42)',
     tags: ['React', 'Node.js', 'MongoDB'],
-    title: 'ShopSmart E-Commerce',
-    desc: 'A full-stack e-commerce platform with cart, checkout, authentication, and admin dashboard.',
-    live: '#',
-    github: '#',
+    title: 'ShopMart E-Commerce',
+    desc: 'A full-stack e-commerce platform with product listings, cart, authentication and MongoDB backend.',
+    live: 'https://shopmart-xi-wine.vercel.app',
+    github: 'https://github.com/silvabolaji08-svg/shopmart',
   },
   {
     emoji: '📊',
