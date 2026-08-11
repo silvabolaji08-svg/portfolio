@@ -22,7 +22,7 @@ export default function AboutFull() {
       <div className="about-photo-side">
         <div className="about-photo-card">
           <div className="about-photo-circle">
-            <img src="/public/d6b29005095ceffe9acb324ba359b1591a30345c39de668a09e6ad3be87df3ab.png" alt="Mobolaji" />
+            <img src="/about-photo.png" alt="Mobolaji" />
           </div>
         </div>
         <span className="hero-badge-available about-available-badge">
