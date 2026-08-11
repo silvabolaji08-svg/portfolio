@@ -3,7 +3,7 @@ export default function AboutSimple() {
     <section id="about">
       <div className="container about-inner">
         <div className="about-photo-wrap">
-          <img src="/public/d6b29005095ceffe9acb324ba359b1591a30345c39de668a09e6ad3be87df3ab.png" alt="Mobolaji working" />
+          <img src="/about-photo.png" alt="Mobolaji working" />
         </div>
         <div className="about-text">
           <h2 className="section-title" style={{ textAlign: 'left' }}>About Me</h2>
