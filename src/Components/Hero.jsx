@@ -74,7 +74,7 @@ export default function Hero() {
             className="hero-orbit"
           />
           <SpotlightCard className="hero-photo-ring hero-spotlight" spotlightColor="rgba(74, 144, 226, 0.35)">
-            <img src="/public/d6b29005095ceffe9acb324ba359b1591a30345c39de668a09e6ad3be87df3ab.png" alt="Portrait of Mobolaji" />
+            <img src="/hero-photo.png" alt="Portrait of Mobolaji" />
           </SpotlightCard>
         </div>
       </div>
