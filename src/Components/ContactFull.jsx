@@ -50,7 +50,7 @@ const handleSubmit = async (e) => {
           <div className="contact-info-icon"><MailBoxIcon /></div>
           <div>
             <div className="contact-info-label">Email</div>
-            <div className="contact-info-value">your.email@example.com</div>
+            <div className="contact-info-value">silvabolaji08@gmail.com</div>
           </div>
         </div>
 
@@ -58,7 +58,7 @@ const handleSubmit = async (e) => {
           <div className="contact-info-icon"><PhoneIcon /></div>
           <div>
             <div className="contact-info-label">Phone</div>
-            <div className="contact-info-value">+234 000 000 0000</div>
+            <div className="contact-info-value">+234 9055314187</div>
           </div>
         </div>
 
