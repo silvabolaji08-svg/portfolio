@@ -39,7 +39,7 @@ export default function Contact() {
           </p>
           <ul className="contact-list">
             <li>{'\u2709'} silvabolaji08@gmail.com</li>
-            <li>{'\u260E'} +234 803 456 7890</li>
+            <li>{'\u260E'} +234 905 531 4187</li>
             <li>{'\u{1F4CD}'} Lagos, Nigeria</li>
           </ul>
         </div>
