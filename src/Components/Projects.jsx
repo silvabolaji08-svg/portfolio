@@ -3,7 +3,7 @@ import useInView from '../hooks/useInView.js';
 const projects = [
   {
     name: 'NFT Marketplace dApp',
-    year: '2025',
+    year: '2026',
     desc: 'A decentralized NFT marketplace supporting minting, listing, and buying/selling NFTs directly on-chain.',
     stack: ['Solidity', 'React', 'Ethers.js', 'Web3.js'],
     image: '/projects/nft-marketplace.png',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     name: 'E-Commerce Demo',
-    year: '2025',
+    year: '2026',
     desc: 'A demo e-commerce platform with product listing, cart system, and checkout flow.',
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
     image: '/projects/ecommerce-demo.png',
