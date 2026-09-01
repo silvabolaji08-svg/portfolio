@@ -5,7 +5,7 @@ const projects = [
     name: 'NFT Marketplace dApp',
     year: '2026',
     desc: 'A decentralized NFT marketplace supporting minting, listing, and buying/selling NFTs directly on-chain.',
-    stack: ['Solidity', 'React', 'Ethers.js', 'Web3.js'],
+    stack: ['Solidity', 'React', 'Vite', 'Ethers.js', 'Web3.js'],
     image: '/projects/nft-marketplace.png',
     color: '#a06bea',
   },
