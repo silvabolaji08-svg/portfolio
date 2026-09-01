@@ -6,7 +6,7 @@ const projects = [
     year: '2026',
     desc: 'A decentralized NFT marketplace supporting minting, listing, and buying/selling NFTs directly on-chain.',
     stack: ['Solidity', 'React', 'Vite', 'Ethers.js', 'Web3.js'],
-    image: 'public/projects/nft-marketplace.png',
+    image: '/projects/nft-marketplace.png',
     color: '#a06bea',
     github: 'https://github.com/silvabolaji08-svg/nft-marketplace',
     demo: 'https://nft-marketplace-khaki-zeta.vercel.app/',
