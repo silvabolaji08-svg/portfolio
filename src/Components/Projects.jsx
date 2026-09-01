@@ -9,7 +9,7 @@ const projects = [
     image: '../public/projects/nft-marketplace.png',
     color: '#a06bea',
     github: 'https://github.com/silvabolaji08-svg/nft-marketplace',
-    demo: 'https://portfolio-flax-xi-16.vercel.app/',
+    demo: 'https://nft-marketplace-khaki-zeta.vercel.app/',
   },
   {
     name: 'E-Commerce Demo',
