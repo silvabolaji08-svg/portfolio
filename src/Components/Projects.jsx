@@ -16,7 +16,7 @@ const projects = [
     year: '2026',
     desc: 'A demo e-commerce platform with product listing, cart system, and checkout flow.',
     stack: ['Vite', 'Node.js', 'Express.js', 'MongoDB'],
-    image: 'public/projects/ecommerce-demo.png',
+    image: '/projects/ecommerce-demo.png',
     color: '#4a90e2',
     github: 'https://github.com/silvabolaji08-svg/voltix-.git',
     demo: 'https://voltix-pink.vercel.app/',
