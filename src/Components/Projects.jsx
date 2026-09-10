@@ -15,11 +15,11 @@ const projects = [
     name: 'E-Commerce Demo',
     year: '2026',
     desc: 'A demo e-commerce platform with product listing, cart system, and checkout flow.',
-    stack: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    stack: ['Vite', 'Node.js', 'Express.js', 'MongoDB'],
     image: 'public/projects/ecommerce-demo.png',
     color: '#4a90e2',
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/silvabolaji08-svg/voltix-.git',
+    demo: 'https://voltix-pink.vercel.app/',
   },
   // Add new projects here — they'll show on /projects automatically.
   // Only the first `limit` (see below) show on the Home page.
